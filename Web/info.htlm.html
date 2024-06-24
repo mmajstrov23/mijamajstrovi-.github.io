@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Knjige</title>
+    <link rel="stylesheet" href="info.css" type="text/css">
+    <script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+
+<h1>Knjige</h1>
+
+<hr>
+<h3>Žanrovi i forme knjiga</h3>
+<div class="table_container">
+    <table class="table_cls">
+        <tr>
+            <th><label>Korisničko ime: </label></th>
+            <th><input type="text" value="" id="korisničko ime"></th>
+        </tr>
+        <tr>
+            <th><label>Lozinka: </label></th>
+            <th><input type="text" value="" id="lozinka"></th>
+        </tr>
+        <tr>
+            <th style="text-align: left">Izaberi žarn knjige:</th>
+            <th>
+                <select class="choices" title="Izaberi žarn knjige" id="genre_choice">
+                    <option value="none" selected disabled>Izaberi žarn knjige</option>
+                    <option value="Fantazija">Fantazija</option>
+                    <option value="Horor">Horor</option>
+                    <option value="Kriminalistika">Kriminaliskika</option>
+                    <option value="Povijesni">Povijesni</option>
+                </select>
+            </th>
+        </tr>
+        <tr class="empty_row"></tr>
+        
+        </tr>
+        <tr>
+            <th><label>Izaberi formu knjige:</label></th><th></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="Meki uvrz" id="meki" type="radio"  >Meki uvez</label></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="Tvrdi uvez" id="tvrdi" type="radio"  >Tvrdi uvez</label></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="E-knjiga" id="E" type="radio"  >E-knjiga</label></th>
+        </tr>
+        <tr>
+            <th></th><th><label> <input name="Audio knjiga" id="audio" type="radio"  >Audio knjiga</label></th>
+        </tr>
+        <tr class="empty_row"></tr>
+        <tr>
+            <th></th><th><button class="btn_cls" id="submit_btn" onclick="submit_data()">Submit</button></th>
+        </tr>
+    </table>
+</div>
+<footer class = "footer_cls">
+    <p>Napravila: Mija Majstrović </p></footer>
+
+<img src="https://qph.cf2.quoracdn.net/main-qimg-edcd908ca52d27cd1c02a194c4a8c462-lq" alt="Primjer različitih forma knjiga" class="slika">
+</body>
+</html>

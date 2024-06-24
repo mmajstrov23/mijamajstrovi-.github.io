@@ -1,0 +1,80 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-PmG6hW8T8Me_xCz34qb0fp44iKRdh2wmw&s");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+
+    h1 {
+        font-weight: bold;
+        font-size: 24px;
+        margin: 3px;
+    }
+
+    .footer_cls {
+        background-color: seashell;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .div_table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 50%;
+    }
+
+    .table {
+        margin: auto;
+        text-align: left;
+        width: 50%;
+    }
+
+    .choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 175px;
+        height: auto;
+    }
+
+    .empty_row {
+        height: 20px;
+    }
+
+    .submit_cls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto; /* Adjust this value according to your needs */
+        width: 70%;
+    }
+
+    .submit_btn {
+        background: #26266f;
+        color: white;
+        padding: 7px 11px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 170px;
+        height: auto;
+        opacity: 0.7;
+        font-style: oblique;
+        font-family: "Bell MT";
+        font-size: 24px;
+    }
+
+    .slika {
+        height: 600px;
+        width: 500px;
+        position: relative;
+    }
+}
+
